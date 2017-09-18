@@ -1,6 +1,6 @@
 body { 
-    background: radial-gradient(circle, white, #03D9FF, #A6FF01, #FC0101);
-    background-image: url(file://images/brickwallback.jpg) ;  
+    /*background: radial-gradient(circle, white, #03D9FF, #A6FF01, #FC0101);*/
+    background-image: url("images/brickwallback.jpeg");  
 }
 
 h1 {
@@ -37,6 +37,7 @@ img {
     border-style:outset;
     display: block;
     margin: auto;
+    margin-bottom: 1.5%; 
     width: 50%;
 }
 
