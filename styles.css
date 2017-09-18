@@ -1,10 +1,9 @@
 body { 
-    /*background: radial-gradient(circle, white, #03D9FF, #A6FF01, #FC0101);*/
-    background-image: url("images/brickwallback.jpeg");  
+    background: radial-gradient(circle, white, #03D9FF, #A6FF01, #FC0101);*/
+    /* background-image: url("images/brickwallback.jpeg"); */
 }
 
 h1 {
-    
     border: 1px black; outline: 5px ;outline-style: ridge; outline-color: #200C3B;
     font-family: "arial black";
     color: #7B87CA; 
@@ -13,7 +12,6 @@ h1 {
     text-shadow: 1px 2px #3D3D3D;
     margin: auto;
     width: 50%;
-
 }
 
 h2 {
@@ -30,6 +28,17 @@ section {
     text-align: center;
 }
 
+.images {
+    filter: drop-shadow(8px 8px 10px red);
+    border-color: black;
+    border-width:5px;  
+    border-style:outset;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5%; 
+    width: 50%;
+}
+
 img {
     filter: drop-shadow(8px 8px 10px red);
     border-color: black;
@@ -39,6 +48,10 @@ img {
     margin: auto;
     margin-bottom: 1.5%; 
     width: 50%;
+}
+
+#figcaption {
+    font-size: 20px;
 }
 
 p {
